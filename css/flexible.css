@@ -1,0 +1,127 @@
+/*Estas son reglas de estilo en CSS que están relacionadas con el uso de Flexbox para el diseño de una página web. Te explicaré cada una de ellas:
+-----
+
+.flexible__column:
+.flexible__column {
+    display: flex;
+    flex-direction: column;
+}
+Esta regla define un estilo para un elemento con la clase flexible__column. Aquí hay una explicación de las propiedades utilizadas:
+
+display: flex;: Esto establece que el elemento con la clase .flexible__columnserá un contenedor flexible, lo que significa que sus elementos hijos se organizarán utilizando el modelo de caja flexible (Flexbox).
+
+flex-direction: column;: Esta propiedad establece la dirección principal de los elementos flexibles dentro del contenedor. En este caso, se establece en column, lo que significa que los elementos se colocarán uno debajo del otro en una columna.
+
+
+------
+.flexible__column__reverse:
+.flexible__column__reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+Esta regla es similar a la primera, pero utiliza 
+flex-direction: column-reverse;. Esto significa que los elementos dentro del contenedor se colocarán en una columna, pero en orden inverso al que están en el HTML.
+
+
+---------
+.flexibleWrap:
+.flexibleWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+Esta regla es para un elemento con la clase .flexibleWrap. Aquí se están utilizando dos propiedades:
+
+display: flex;: Al igual que en las anteriores, esto establece que el elemento con la clase .flexibleWrapserá un contenedor flexible.
+
+flex-wrap: wrap;: Esta propiedad controla si los elementos flexibles dentro del contenedor deben "envolverse" en Múltiples líneas si no caben en una sola fila o columna. En este caso, wrappermita que los elementos se muevan a la siguiente fila si no hay suficiente espacio.
+---------
+En resumen, estas reglas CSS están diseñadas para aplicar Flexbox en diferentes configuraciones:
+.flexible__column: Organiza elementos en una columna.
+.flexible__column__reverse: Organiza elementos en una columna, pero en orden inverso.
+.flexibleWrap: Permite que los elementos se muevan a la siguiente línea si no caben en una sola fila o columna.
+---------------------------------------------------
+boostrap que es
+ChatGPT
+Bootstrap es un framework de código abierto muy popular para el desarrollo de sitios web y aplicaciones móviles. Fue creado por Twitter y es mantenido por la comunidad de desarrolladores de código abierto.
+
+Este framework proporciona un conjunto de herramientas y estilos CSS predefinidos que facilitan la creación de diseños y la construcción de interfaces de usuario de manera rápida y eficiente. Bootstrap está basado en HTML, CSS y JavaScript, y se centra en la responsividad y 
+la adaptabilidad a diferentes tamaños de pantalla, lo que significa que los sitios web y aplicaciones desarrolladas con Bootstrap son fácilmente accesibles tanto en computadoras de escritorio como en dispositivos móviles.
+
+Las principales características de Bootstrap incluyen:
+
+Grid System : Un sistema de cuadrícula que facilita la creación de diseños de páginas responsivos y organizados.
+
+Componentes Reutilizables : Ofrece una amplia variedad de componentes predefinidos como botones, formularios, barras de navegación, entre otros.
+
+Estilos y Temas Predefinidos : Bootstrap estilos CSS bien diseñados y temas básicos que puedes personalizar según tus necesidades.
+
+JavaScript Incorporado : Incluye una serie de complementos y funcionalidades de JavaScript para mejorar la interactividad y la funcionalidad de tu sitio web o aplicación.
+
+Documentación detallada : Bootstrap cuenta con una documentación muy completa que facilita su uso y aprendizaje.
+
+Compatibilidad con Navegadores : Bootstrap está diseñado para ser compatible con la mayoría de los navegadores modernos.
+
+Desarrollo Rápido : Permite a los desarrolladores crear prototipos y aplicaciones funcionales de manera rápida.
+
+Bootstrap es ampliamente utilizado en la industria del desarrollo web debido a su eficiencia y versatilidad. Puedes integrar Bootstrap en tus proyectos descargando los archivos o 
+utilizando un CDN (Content Delivery Network) para acceder a las bibliotecas directamente desde la 
+web. Esto hace que sea una herramienta valiosa para desarrolladores que buscan crear sitios web y aplicaciones de alta calidad de manera eficiente.
+
+
+---------------------------------------------------
+
+Un framework es un conjunto de herramientas, bibliotecas y reglas predefinidas que proporcionan una estructura y abstracciones para facilitar el desarrollo de software. 
+Estos frameworks están diseñados para ayudar a los desarrolladores a construir aplicaciones de manera más }
+rápida y eficiente al proporcionar un conjunto de funcionalidades comunes y soluciones a problemas recurrentes.
+
+Aquí hay algunos tipos comunes de frameworks:
+
+Marcos de Desarrollo Web :
+
+Django : Para desarrollo web en Python.
+Ruby on Rails : Para desarrollo web en Ruby.
+Express.js : Para desarrollo web en Node.js.
+ASP.NET : Para desarrollo web en C#.
+Spring : Para desarrollo web en Java.
+Marcos de Frontend :
+
+React.js : una biblioteca de JavaScript para construir interfaces de usuario interactivas.
+Angular : Un marco de aplicación de una sola página (SPA) desarrollada por Google.
+Vue.js : Un marco progresivo de JavaScript para construir interfaces de usuario.
+Marcos de backend :
+
+Express.js : Utilizado en conjunto con Node.js para construir servidores y API.
+Spring Boot : Para desarrollo de aplicaciones en Java.
+Ruby on Rails : Puede utilizarse tanto para el frontend como para el backend.
+Frameworks de Aplicaciones Móviles :
+
+React Native : Para construir aplicaciones móviles multiplataforma utilizando JavaScript y React.
+Flutter : Un SDK de código abierto de Google para crear aplicaciones nativas para dispositivos móviles.
+Marcos de juegos :
+
+Unity : Para el desarrollo de juegos en 2D y 3D.
+Unreal Engine : Otro motor de juegos popular.
+Marcos de prueba :
+
+Selenium : Para pruebas automatizadas de aplicaciones web.
+JUnit : Para pruebas unitarias en Java.
+Marcos de PHP :
+
+Laravel : Un framework popular para desarrollo web en PHP.
+Symfony : Otro framework PHP bien establecido.
+Marcos de Python :
+
+Django : Mencionado anteriormente, es un framework completo para desarrollo web en Python.
+Flask : Un microframework para desarrollo web en Python.
+Marcos de CSS :
+
+Bootstrap : Proporciona un conjunto de estilos y componentes predefinidos para el diseño web.
+Fundación : Otro popular framework de diseño web.
+Estos son solo algunos ejemplos y existen muchos más frameworks disponibles para una amplia variedad 
+de lenguajes y propósitos. La elección del marco dependerá del tipo de aplicación que estés desarrollando y tus preferencias persona.
+---
+descarge boostrap.
+linkeamos en poryeto <link rel="stylesheet" href="./css/bootstrap.min.css">
+cambie fuente la forma de letra en el bodi completo.
+--madia cuaris en el html. los contenedores con sus mediads pueden esatr en columna una al lado de otra u pantalla de celular
+*/

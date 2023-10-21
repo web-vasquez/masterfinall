@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.colorfondoazul{
+    background-color: #2973ec;
+}
+
+
+
+.logo {
+    max-width: 70px; /* Ajusta el valor según lo necesites */
+    margin-left: 50px;
+  }
+
+  /*html del index-main*/
+  
+  .colorverdeh1{
+    background-color: rgb(157, 210, 84);
+    margin-top: 20px;
+    text-align: center;
+  }
+  .parrafo1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+  }
+
+  .colorverdeh2{
+    background-color:rgb(157, 210, 84);
+    text-align: center;
+  }
+  .tituloh2{
+    text-align: center;
+    margin-top: 30px;
+    background-color:rgb(157, 210, 84);
+  }
+
+  .parrafo2{
+    margin-top:20px;
+  }
+  .titulodevideoh3{
+    background-color:rgb(157, 210, 84); 
+    margin-top: 10px;
+  }
+  .videoh3{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /*htmlNosotros- main*/
+  .subtituloh2nosotros{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .ph2-nosotros{
+    margin-top: 20px;
+  }
+  .imgh2-nosotros{
+    text-align: center;
+  }
+
+  .tituloproposito{
+    background-color:rgb(157, 210, 84); 
+    text-align: center;
+    margin-top: 50px;
+  }
+  .t3-nosotros{
+    background-color:rgb(157, 210, 84); 
+    text-align: center;
+    margin-top: 40px;
+
+  }
+  .imgh3-nosotros{
+   text-align: center;
+   width: 500px;
+   margin-left: 300px;
+   image-rendering: optimizeQuality;
+  }
+  .parrafoantesdelvideo{
+    margin-top: 20px;
+  }
+  .titulovideo-nosotros{
+    background-color:rgb(157, 210, 84); 
+    text-align: center;
+  }
+  .video-container{
+    text-align: center;
+  }
