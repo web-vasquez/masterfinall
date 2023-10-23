@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
      <link rel="icon" type="imagene.jpg" href="../assets/coli.jpg">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
@@ -37,32 +38,62 @@
                 </ul>  
               </div>
             </div>
-          </nav>
+        </nav>
 
     </header>
-  
-    <main class="producto-contenedor">
-        <h1>Gracias  por ser parte</h1>
-        <h2>Contactanos</h2>
-        <p>"Cada mensaje que recibimos nos llena de al
-        <label for="nombre">Nombre</label> 
-        <input type="text" id="nombre" name="nombre" r
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" name="apellid
-         <label for="email">Correo</label>
-        <input type="email" id="email" name="email" re
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="4"
-        <input type="submit" value="Enviar">
-        <input type="submit" value="Borrar">
+    <main class="container">
+      <section class="row">
+          <div class="titulo col-12 colorverdeh1">
+             <h1>Gracias por ser parte.</h1>
+          </div>
+          <div class="col-12">
+            <h2>Contactanos</h2>
+          <p>"Cada mensaje que recibimos nos llena de alegría y nos impulsa a seguir compartiendo la belleza de las aves de la Patagonia."</p>
+         <form>
+            <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label> 
+                  <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="mb-3">
+                  <label for="apellido" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="apellido" name="apellido">
+            </div>
+            <div class="mb-3">
+                  <label for="email" class="form-label">Correo</label>
+                  <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje:</label><br>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="reset" class="btn btn-secondary">Borrar</button>
+          </form>
+          </div>
+       </section>
+          <div class="footercontactos text-center py-3">
+          <h3>Registrate antes en esta pagina si vas a ir a alguna de nuestras expediciones:</h3>
+         <p> <a href="https://www.clubandino.org/registro-de-trekking/" target="_blank">Formulario de Registro de Trekking</a> </p>
+          </div>
     </main>
-    <footer class="footercontactos">
-        <h3>Registrate antes en esta pagina si vas a i
-        <p>
-            https://www.clubandino.org/registro-de-tre
-        </p>
-    </footer>  
-    <script src="../js/bootstrap.bundle.min.js"></script> 
-  
+    <footer class="navbar navbar-expand-lg navbar-light colorfondoazul">
+         <div class="redes row col-12 container-fluid d-flex align-items-center mx-auto text-center">
+         <div class="redes row col-12  container d-flex align-items-center mx-auto text-center">
+         <h3>Redes Sociales</h3>
+         <ul class="list-unstyled d-flex justify-content-center">
+           <li class="mx-2">
+               <a href="https://www.facebook.com/TuPaginaDeFacebook" target="_blank" class="text-dark">
+                 <i class="fab fa-facebook-f"></i>
+               </a>
+           </li>
+            <li class="mx-2">
+             <a href="https://wa.me/TUNUMERODEWHATSAPP" target="_blank" class="text-dark">
+                  <i class="fab fa-whatsapp"></i>
+              </a>
+          </li>
+         </ul>
+        </div>
+    </footer>
+<script src="../js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>

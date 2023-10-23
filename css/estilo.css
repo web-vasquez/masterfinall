@@ -3,8 +3,9 @@ body{
     font-family: 'Oswald', sans-serif;
     color: black;
 }
+
 .colorfondoazul{
-    background-color: #2973ec;
+    background-color: green;
 }
 
 
@@ -17,31 +18,31 @@ body{
   /*html del index-main*/
   
   .colorverdeh1{
-    background-color: rgb(157, 210, 84);
+   color: black;
     margin-top: 20px;
     text-align: center;
   }
   .parrafo1{
     margin-top: 20px;
     margin-bottom: 15px;
-    
+    color: rgb(25, 42, 222);
   }
 
   .colorverdeh2{
-    background-color:rgb(157, 210, 84);
+    color:black;
     text-align: center;
   }
   .tituloh2{
     text-align: center;
     margin-top: 30px;
-    background-color:rgb(157, 210, 84);
+    color: black;
   }
 
   .parrafo2{
     margin-top:20px;
   }
   .titulodevideoh3{
-    background-color:rgb(157, 210, 84); 
+    color: red;
     margin-top: 10px;
   }
   .videoh3{
@@ -49,7 +50,18 @@ body{
     margin-top: 20px;
   }
 
+  /*footer redes*/
+  .redes{
+    background-color: rgba(184, 11, 11, 0.911);
+    text-align: center;
+    
+  }
+
   /*htmlNosotros- main*/
+  .titulo1nosotros{
+    text-align: center;
+    margin-top: 20px;
+  }
   .subtituloh2nosotros{
     text-align: center;
     margin-top: 10px;
@@ -62,12 +74,12 @@ body{
   }
 
   .tituloproposito{
-    background-color:rgb(157, 210, 84); 
+    background-color:rgb(180, 88, 27); 
     text-align: center;
     margin-top: 50px;
   }
   .t3-nosotros{
-    background-color:rgb(157, 210, 84); 
+    background-color:rgb(180, 88, 27);  
     text-align: center;
     margin-top: 40px;
 
@@ -82,9 +94,20 @@ body{
     margin-top: 20px;
   }
   .titulovideo-nosotros{
-    background-color:rgb(157, 210, 84); 
+    background-color:rgb(210, 210, 62); 
     text-align: center;
   }
   .video-container{
     text-align: center;
   }
+  .nosotroselfinal{
+    text-align: center;
+  }
+   /*html de galeria*/
+   .h1img{
+    margin: 40px;
+   }
+   /*esapcio entre todos las img y parrafos*/
+   .espacioN{
+    margin-bottom: 30px;
+   }
