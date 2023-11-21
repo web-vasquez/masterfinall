@@ -4,9 +4,77 @@ body{
     color: black;
 }
 
+
 .colorfondoazul{
-    background-color: green;
+  background-color: rgb(225, 221, 16);
 }
+
+.parrafo1 {
+  color: gray; /* Gris oscuro */
+}
+
+/* Estilo para la imagen principal */
+.imgh1 {
+  margin-top: 20px;
+  background-color: #ecf0f1; /* Fondo gris claro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 15px;
+}
+
+.mi-imagen {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la sección "Sumérgete en la belleza de los pájaros patagónicos" */
+.tituloh2 {
+  color: #27ae60; /* Verde esmeralda */
+}
+
+.parrafo2 {
+  color: #190f0f; /* Gris */
+}
+
+.imgh2 {
+  background-color: #ba8b3e; /* Fondo amarillo claro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 15px;
+}
+
+.imgh2 img {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la sección del video */
+.titulodevideoh3 {
+  color: #e74c3c; /* Rojo */
+}
+
+/* Estilo para la sección de lugares y ubicaciones */
+h3 {
+  color: #f39c12; /* Amarillo */
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el footer */
+.redes {
+  background-color: #3498db; /* Azul */
+}
+
+.redes h3 {
+  color: #ffffff; /* Blanco */
+}
+
+.redes a {
+  color: #ffffff; /* Blanco */
+}
+
+
 
 
 
@@ -25,7 +93,7 @@ body{
   .parrafo1{
     margin-top: 20px;
     margin-bottom: 15px;
-    color: rgb(25, 42, 222);
+    color: black;
   }
 
   .colorverdeh2{
@@ -104,10 +172,35 @@ body{
     text-align: center;
   }
    /*html de galeria*/
-   .h1img{
-    margin: 40px;
-   }
+   
    /*esapcio entre todos las img y parrafos*/
    .espacioN{
     margin-bottom: 30px;
    }
+   .maing{
+    margin-bottom: 50px;
+    margin-top: 50px;
+   }
+   .galeriag{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     
+     
+   }
+   .hijo{
+    background-color: white;
+    border: 1px solid gray;
+    width: 300px;
+    height: 300px;
+    
+   }
+   .hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+
+   }
+  
